@@ -1,7 +1,5 @@
 # Heatrelatedt Mortality Estimation
 
-Shortcut: [Remarks](https://github.com/ClimSocAna/Heat-Mortality#Remarks) - [Datasets](https://github.com/ClimSocAna/Heat-Mortality#Datasets)
-
 ## Remarks
 
 This repository contains code of shallow neural network to estimate the mortality in Germany. The estimated mortality can than be used to calculate heat-related mortality.
@@ -41,8 +39,13 @@ The climate projection data is not available due to the size.
 
 ## Data pipeline
 
-The code is mainly for data exploration and not suitable for monitoring purpose. The model itself contains many raw data for examinations. A proper data pipeline needs to be implemented for setting up surveillance system.
+The code is mainly for data exploration and not suitable for monitoring purpose. The model itself contains many raw data for examinations. A proper data pipeline is needed for setting up surveillance system.
 
 ## Model and training
 
-The 
+The hyperparameters in the model was not tested for best performance, as the model itself is still in development. 
+The model was trained as it is in the code with 20 GB GPU memory.
+
+## About the notebook
+
+We provide a [notebook](./result.ipynb) to 
