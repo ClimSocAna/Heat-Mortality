@@ -1,0 +1,13 @@
+activation: false
+baseline_mode: bottom_10
+hidden_dim_init: 128
+in_channel: 1
+kernel_days: 6
+n_layers: 3
+out_channel: 30
+population_interpolation: true
+t_type: mean
+useExp: true
+val_split: 0.2
+weather_data: de_1km
+weekday_correction: true
