@@ -1,4 +1,4 @@
-# Heatrelatedt Mortality Estimation
+# Heat-related Mortality Estimation
 
 ## Remarks
 
@@ -48,4 +48,4 @@ The model was trained as it is in the code with 20 GB GPU memory.
 
 ## About the notebook
 
-We provide a [notebook](./result.ipynb) to 
+We provide a [notebook](./result.ipynb) as an example. The results of the years since 2021 can be visualized with this example.
